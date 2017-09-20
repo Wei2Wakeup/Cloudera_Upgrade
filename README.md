@@ -1,6 +1,6 @@
 # Cloudera_Upgrade
 
-## This docs summarize the steps to upgrade cloudera 5.4.0 to 5.7.0
+## This docs summarize the steps of upgrading from cloudera 5.4.0 to 5.7.0
 
 ### Step 1 ： backup the databases
 The database information can be found at /etc/cloudera-scm-server/db.properties
