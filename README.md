@@ -72,9 +72,9 @@ sudo service cloudera-scm-server start
 
 Login to cloudera mangager and go through steps of upgrade wizard
 
-### Step 5 ：Upgrade CDH with parcels
+### Step 5 ：Upgrade CDH with parcels through cloudera manager
 
-1. Click __Home__>__Status__>__upgrade cluster__
+1. In cloudera manager, click __Home__>__Status__>__upgrade cluster__
 2. You may not find the CDH in newer version and  need to __Modify the Remote Parcel Repository URLs__
 3. Add 'http://archive.cloudera.com/cdh5/parcels/5.7.0/'
 4. And then following the wizard steps
