@@ -7,6 +7,7 @@ The database information can be found at /etc/cloudera-scm-server/db.properties
 
 The database username and password can be found by click __instance__**>**__server_name__**>**__process__ in cloudera manager and explore those conf or xml files.
 1. backup cloudera manager databases
+
 activity monior:
 ```ruby  
 mysqldump -h hostname -uamon -ppassword activity_monitor > /tmp/backup/amon-backup.$(date +%Y%m%d).sql
