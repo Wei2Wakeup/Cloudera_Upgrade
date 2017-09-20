@@ -16,6 +16,7 @@ reports manager:
 mysqldump -h hostname -urman -ppassword reports_manager > /tmp/backup/rman-backup.$(date +%Y%m%d).sql
 ```
 2. backup server databases
+
 hive:
 ```ruby  
 mysqldump -h hostname -uhive -ppassword hive > /tmp/backup/hive-backup.$(date +%Y%m%d).sql
